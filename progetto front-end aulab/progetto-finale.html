@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+    <html lang="it">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      </head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <title>MangaShop</title>
+    <link rel="stylesheet" href="progetto-finale.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Permanent+Marker&family=Righteous&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <script src="progetto-finale.js" async></script>
+</head>
+<body class="form">
+<nav>
+    <img id="model"  src="logo.png">
+    <span>Aggiungi Manga </span>
+    <span>Multilungue</span>
+    <span>Contattaci</span>
+    <input type="text" placeholder="Cerca manga">
+    <img id="menu" src="user-interface.png">
+    <div class="hidden" id="prova">
+
+    </div>
+</nav>
+<div id="slider">
+    <button onclick="succ()"><</button>
+    <div id="img_slider">
+    <img src="onepuchman.jpg">
+    <img src="thepromise.jpg">
+    <img src="chaainsaman.jpg">
+    
+    </div>
+    <button onclick="prec()">></button>
+</div>
+<div class="box">
+<div class="information">
+  <span>Azione</span>
+  <span>Commedia</span>
+  <span>Drammatici</span>
+  <span>Shoning</span>
+</div>
+</div>
+<div class="container">
+    <p>I migliori Manga ⛩️</p>
+</div>
+<div class="book" >
+   
+    <div class="book2" >
+<div class="secondo" >
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="one piece.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div id="mio-paragrafo"class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-danger">"ONE-PIECE"</h5>
+              <p class="card-text text-white f-secondo">In un mondo quasi interamente coperto dall'acqua e con poche e piccole isole abitate si è fortemente diffusa la pirateria, pratica che riceve un'ulteriore spinta il giorno in cui Gold Roger, il re dei pirati, annuncia al mondo intero che ha nascosto un incredibile tesoro, il One Piece.</p>
+              <p class="card-text"><small class="text-muted">Prezzo</small></p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+</div>
+<div class="terzo"  >
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="attacco dei gianti.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div id="mio-paragrafo" class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Attacco dei Giganti</h5>
+              <p class="card-text text-white f-secondo">L'opera è ambientata in un mondo dove i superstiti dell'umanità vivono all'interno di città circondate da enormi mura difensive a causa dell'improvvisa comparsa dei giganti, enormi creature umanoidi che divorano gli uomini senza un apparente motivo.</p>
+              <p class="card-text"><small class="text-muted">Prezzo</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+    </div>
+    <div class="book3">
+        <div class="quarto">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div  class="col-md-4" >
+                    <img src="images.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div id="mio-paragrafo"class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title text-danger">jujutsu-kaisen</h5>
+                      <p class="card-text text-white f-secondo">Jujutsu Kaisen è un opera manga e anime che segue le vicende di un normale studente delle superiori, Yuji Itadori. Durante le attività del club di occulto della scuola, rimuove per sbaglio con i suoi amici un sigillo da un oggetto maledetto, liberando potenti mostri e maledizioni che li attaccano.</p>
+                      <p class="card-text"><small class="text-muted">Prezzo</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="quinto">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="demon slayer.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div id="mio-paragrafo"class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title text-danger">Kimetsu no yaiba</h5>
+                      <p class="card-text text-white f-secondo">Giappone, albori del Ventesimo Secolo. Il giovane Tanjiro, un gentile venditore di carbone, vede la sua quotidianità stravolta dallo sterminio della famiglia a opera di un demone. L'unica rimasta in vita è la sorella minore Nezuko, che tuttavia è stata trasformata in un demone a sua volta.</p>
+                      <p class="card-text"><small class="text-muted">Prezzo</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</div>
+<div class="txt">
+    <h2>I nostri numeri🏅</h2>
+</div>
+<div class="numeri">
+    <div>
+    <p id="number1" class="number">500</p>
+    <p class="testo">Copie vendute</p>
+    <img src="books.png">
+    </div>
+    </div>
+<div class="register">
+<h3>Scopri i nostri migliori Manga</h3>
+<div class="bot">
+  <a href="form.html"><button class="btn-register me-5 btn btn-primary">LOGIN ⛩️</button></a>
+  <a href="tuttimanga.html"> <button class="btn-register btn btn-primary"> Vedili Tutti 😉</button></a>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
+let img = document.querySelector("#modal");
+let div = document.querySelector("#finestra");
+
+img.addEventListener('click',() => {
+div.style.margin = "0px 0px 0px 0px";
+});
+
+</script> --> 

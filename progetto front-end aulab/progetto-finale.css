@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Righteous&display=swap');
+  .f-primo{font-family: 'Oswald', sans-serif;}
+  .f-secondo{font-family: 'Righteous', cursive;}
+/*---------NAV-----------*/
+body{background-color:#2C1267 ;margin:0}
+.hidden{display: none;}
+nav{width: 100%;height: 60px; background-color:black;display: flex; align-items: center;justify-content: space-around;position: relative;}
+#prova{width: 400px;height: 400px;position: absolute;background-color: black;right:0;}
+nav span{color: white;cursor: pointer;font-family: 'Righteous', cursive;}
+nav span:hover{color:yellow;}
+#slider{width: 100%;display:flex;align-items: center;justify-content: center;}
+#img_slider{width: 100%;}
+#img_slider img{width: 100%;height: 300px;display: none;margin:0;}
+#img_slider img:nth-child(1){display: block;}
+#slider button{width: 50px;height: 50px;background: none; border:none;border-radius: 25px;cursor:pointer;font-size: 40px;color: white;outline: none;transition: all 0.1 ease-in-out;}
+#slider button:hover{transform: scale(1.05);}
+/*------------NAVCHIUSURA--------*/
+/*-----------HEADER---------------*/
+.box{width: 100%;height: 80px;display: flex;justify-content: center;}
+.information{display: flex; justify-content: space-around;align-items: center;width: 80%;height: 80px;background-color:black;}
+.information span{color: white;text-transform: uppercase;font-family: 'Righteous', cursive;}
+.information span:hover{color: yellow;cursor: pointer;}
+/*-------------/HEADER----------*/
+/*--------------BOOK-------------------*/
+.container{width: 100%;height: 200px;background-color:#2C1267;display: flex;justify-content: center;align-items: center;}
+.container p{color: white;font-family: 'Righteous', cursive;text-transform: uppercase;font-size: 30px;}
+.book{width: 100%;height: 700px;background-color:#2C1267;display: flex;flex-direction: column;}
+.book2{width: 100%;height: 350px;background-color:#2C1267;display: flex;justify-content: space-around;align-items: center;}
+.book3{width: 100%;height: 350px;background-color:#2C1267;display: flex;align-items: center;justify-content: space-around;}
+h5{font-family: 'Righteous', cursive;}
+/*----------------/BOOK-------------*/
+#mio-paragrafo{background-color:rgb(15, 2, 30) ;}
+#counter{width: 200px;height: 200px;background-color: bisque;}
+.numeri{width: 100%;height: 200px;background-color: rgb(15, 2, 30);display: flex;justify-content:center;align-items: center;}
+.numeri div{width: 200px;height: 200px;justify-content: center;align-items: center;flex-direction: column;display: flex;}
+.number{font-size: 50px;color: white;font-family: 'Righteous', cursive}
+.txt h2{color: white;font-family: 'Righteous', cursive;}
+.testo{color: white;font-family: 'Righteous', cursive;font-size: 20px;}
+/*-----------------COLLEGAMENTOFORM---------*/
+.txt{will-change: 100%;height: 70px;background-color: rgb(15, 2, 30) ;display: flex;justify-content: center;align-items: center;}
+.register{width: 100%;height: 350px;background-color: rgb(15, 2, 30);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,85,102,0.26943277310924374) 0%);background-image: url("download.jpg");display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.register h3{color:white;font-family: 'Righteous', cursive;font-size: 40px;margin-bottom: 80px;}
+.btn-register{font-family: 'Righteous', cursive;font-weight: 100;font-size: 20px;color:rgb(15, 2, 30) ;background-color:#2C1267 ;padding: 14px 38px;border: solid #c88da5 0px;box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;border-radius: 50px;cursor: pointer;}
+/*-------------FORM---------------------*/
+.form{background-color:#2C1267 ;}
+
+
+
+
+
+
+
+/* .secondo{width:500px;height: 300px;background-color: white;display:flex;}
+.terzo{width:500px;height: 300px;background-color: white;display:flex ;}
+.quarto{width:500px;height: 300px;background-color: white;display:flex ;}
+.quinto{width:500px;height: 300px;background-color:white;display:flex ;}
+.secondo h2{color: black;font-family: 'Righteous', cursive;} */

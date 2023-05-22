@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Righteous&display=swap');
+.f-primo{font-family: 'Oswald', sans-serif;}
+.f-secondo{font-family: 'Righteous', cursive;}
+/*---------NAV-----------*/
+.form{background-color:#2C1267 ;margin:0}
+nav{width: 100%;height: 60px; background-color:black;display: flex; align-items: center;justify-content: space-around;position: absolute;}
+nav span{color: white;cursor: pointer;font-family: 'Righteous', cursive;}
+/*----------FORM---------*/
+.box{width: 100%;height: 100%;display: flex;}
+.container1{width: 50%;height: 750px;display: flex;justify-content: center;align-items: center;}
+.container2{width: 50%;height: 750px;background-color: aqua;}
+#contenitore{width: 100%;height: 800px;display: flex;justify-content: center;align-items: center;flex-direction: column;background-color:#2C1267 ;}
+.form-control{width: 50%;}
+p{color: brown;}
+.testo{color:brown;}
+/* .bordo-animato {
+    border: 2px solid #000; /* definisce il bordo */
+    /* padding: 10px; definisce il padding all'interno del bordo */
+    /* animation: animazione-bordo 2s infinite; definisce l'animazione del bordo */
+  /* }
+  
+  @keyframes animazione-bordo {
+    0% {
+      border-color: #000;
+    }
+    50% {
+      border-color: #f00;
+    }
+    100% {
+      border-color: #000;
+    }
+  }  */ 
+  .box{
+    animation: animazione-bordo 2s infinite; 
+    border: 5px solid #000; 
+    width: 700px;
+    height: 500px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    /* box-shadow: 0px 0px 15px 15px #2C1267; */
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1492571350019-22de08371fd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW58ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    @keyframes animazione-bordo {
+        0% {
+          border-color: yellow;
+        }
+        50% {
+          border-color: #f00;
+        }
+        100% {
+          border-color: blue;
+        }
+      }
